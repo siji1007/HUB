@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/white">
+
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/viewPager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/toolbar"
+            android:layout_above="@+id/BottomBar" />
+
+
+        <androidx.appcompat.widget.Toolbar
+            app:menu="@menu/menu_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:id="@+id/toolbar"
+            android:background="@drawable/toolbar_bg"
+            app:titleTextColor="@color/white"
+
+            style="@style/ToolbarTextStyle"
+            />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/frame_layout"
+            android:layout_below="@id/toolbar"
+            android:layout_above="@id/BottomBar"
+                />
+
+
+
+        <me.ibrahimsn.lib.SmoothBottomBar
+            android:id="@+id/BottomBar"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_alignParentBottom="true"
+            app:backgroundColor="@color/maroon"
+            app:menu="@menu/menu"
+            app:indicatorRadius="10dp"
+            />
+
+
+
+
+
+</RelativeLayout>

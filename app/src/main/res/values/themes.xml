@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.HUB" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/maroon</item>
+        <item name="android:navigationBarColor">@color/maroon</item>
+
+    </style>
+
+    <style name="ToolbarTextStyle" parent="Widget.AppCompat.Toolbar">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+
+    <style name="Theme.HUB" parent="Base.Theme.HUB" />
+</resources>

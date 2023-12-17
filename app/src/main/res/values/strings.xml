@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">HUB</string>
+    <string name="mission_vission">mission/vission</string>
+    <string name="Organization" />
+    <string name="goals">Goals</string>
+    <string name="navigation">Navigation</string>
+    <string name="organization">Organization</string>
+    <string name="history">HISTORY</string>
+    <string name="tap_to_navigate_buldings">TAP TO NAVIGATE BULDINGS</string>
+
+</resources>
